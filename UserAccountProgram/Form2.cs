@@ -25,6 +25,8 @@ namespace UserAccountProgram
 
         private void booksToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Books read = new Books();
+            read.ShowDialog();
            
         }
     }
